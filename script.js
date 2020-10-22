@@ -5,8 +5,13 @@ function beginQuiz(){
 }
 
 function wrongAnswer() {
-    document.querySelector("#result").textContent = "You Chose The Wrong Answer, Please Try Again!";
+    const result = document.querySelector("#result")
+    result.textContent = "You Chose The Wrong Answer, Please Try Again!";
+    setTimeout(() => result.textContent = '', 1000)
+    seconds=seconds-10;
+    console.log(seconds);
 }
+
 
 function correctAnswer1() {
     document.querySelector("#result").textContent = "You're Answer is Correct. Here's You're Next Question.";
