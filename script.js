@@ -46,9 +46,9 @@ function highScoreLoad() {
 }
 
 let started = null;
-let seconds = localStorage.getItem('seconds') || 500;
+let seconds = localStorage.getItem('seconds') || 150;
 if(window.location.href.includes('Question1')){
-    seconds = 500;
+    seconds = 150;
 }
 
 function startTimer() {
