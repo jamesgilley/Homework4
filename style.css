@@ -6,6 +6,17 @@ header {
     text-align: left;
 }
 
+#timer {
+ text-align: center;
+}
+
+.timeTextParent {
+  display: inline;
+}
+
+.timeText {
+    display: inline;
+}
 
 #quizAnswer {
     background-color: aqua;
