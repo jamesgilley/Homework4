@@ -1,4 +1,14 @@
+body {
+    text-align: center;
+}
+
+header {
+    text-align: left;
+}
+
+
 #quizAnswer {
     background-color: aqua;
     width: 250px;
+    margin-left: 530px;
 }
