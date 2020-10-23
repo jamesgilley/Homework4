@@ -45,11 +45,6 @@ function highScoreLoad() {
     document.querySelector("#name").textContent = name;
 }
 
-function onNameSubmit() {
-    window.localStorage.name = document.querySelector("#name").value;
-    window.location.href = "/Highscore";
-}
-
 let started = null;
 let seconds = localStorage.getItem('seconds') || 500;
 if(window.location.href.includes('Question1')){
